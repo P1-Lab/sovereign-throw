@@ -56,7 +56,30 @@ The Sovereign Throw Node is a portable, high-SPL audio blueprint prioritizing Tr
   <div style="background: #fff5f5; border: 1px solid #feb2b2; padding: 15px; color: #c53030; border-radius: 4px; margin-top: 30px;">
     <strong style="text-transform: uppercase;">Safety Warning:</strong> 
     At 36V, this system produces extreme SPL. Use hearing protection during testing. Ensure a 30A continuous discharge BMS is used to manage the 48Hz transient "thump".
+  </div><!-- The Heat: Manifesto Section -->
+<section style="margin: 35px 0;">
+  <h2 style="border-bottom: 2px solid #d9411e; padding-bottom: 8px; color: #d9411e; text-transform: uppercase; font-size: 1.2rem;">The Case for Necessity</h2>
+  <p style="margin-top: 15px;">
+    Most modern portable PAs are built on a lie: that software DSP can compensate for cheap plastic enclosures and sagging 12V rails. They use "Brickwall" limiting to hide driver distress, resulting in a flattened, clinical sound that dies 5 meters away.
+  </p>
+  <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-top: 20px;">
+    <div style="border: 1px solid #eee; padding: 15px;">
+      <h4 style="margin: 0; color: #666;">COMMERCIAL STATUS QUO</h4>
+      <p style="font-size: 0.85rem;">Stochastic digital snapshots, plastic resonance, and compressed transients. Designed for convenience.</p>
+    </div>
+    <div style="border: 1px solid #d9411e; padding: 15px; background: #fffcfb;">
+      <h4 style="margin: 0; color: #d9411e;">SOVEREIGN STANDARD</h4>
+      <p style="font-size: 0.85rem;">Vitrified analog kernels, 15mm Baltic Birch mass, and 36V uncompressed peaks. Designed for Authority.</p>
+    </div>
   </div>
+</section>
+
+<!-- Added Cone Specification Note -->
+<div style="background: #000; color: #fff; padding: 15px; margin: 25px 0; text-align: center;">
+  <span style="letter-spacing: 0.1em; text-transform: uppercase; font-size: 0.8rem;">
+    MANDATORY INTERFACE: Long-Fiber Non-Pressed Paper Cone only. Synthetics are strictly prohibited.
+  </span>
+</div><P></P>
 
   <p style="margin-top: 30px; font-size: 0.85rem; color: #666; text-align: center;">
     <em>The "Sovereign Throw Node" is now public. The audio house is complete.</em>
