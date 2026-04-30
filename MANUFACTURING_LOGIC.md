@@ -10,11 +10,11 @@
   <section style="margin-bottom: 30px;">
     <h3 style="background: #000; color: #fff; padding: 8px 12px; font-size: 1rem; display: inline-block;">1. THE COST ANALYSIS</h3>
     <div style="margin-top: 15px; border-left: 2px solid #eee; padding-left: 20px;">
-      <p>By bypassing the marketing markups and retail margins of "lifestyle" audio brands, we restore the value of the raw materials[cite: 1].</p>
+      <p>By bypassing the marketing markups and retail margins of "lifestyle" audio brands, we restore the value of the raw materials.</p>
       <ul style="list-style: none; padding: 0;">
-        <li style="margin-bottom: 12px;"><strong>Total Build Cost:</strong> ~$250.00 – $350.00 USD, depending on driver selection and battery chemistry[cite: 1].</li>
-        <li style="margin-bottom: 12px;"><strong>Comparative Performance:</strong> This design physically competes with commercial units priced at $900.00+[cite: 1].</li>
-        <li style="margin-bottom: 12px;"><strong>Capital Efficiency:</strong> Every dollar spent is allocated to 36V headroom, 15mm Birch mass, and high-current BMS capability[cite: 1].</li>
+        <li style="margin-bottom: 12px;"><strong>Total Build Cost:</strong> ~$250.00 – $350.00 USD, depending on driver selection and battery chemistry.</li>
+        <li style="margin-bottom: 12px;"><strong>Comparative Performance:</strong> This design physically competes with commercial units priced at $900.00+.</li>
+        <li style="margin-bottom: 12px;"><strong>Capital Efficiency:</strong> Every dollar spent is allocated to 36V headroom, 15mm Birch mass, and high-current BMS capability.</li>
       </ul>
     </div>
   </section>
@@ -23,18 +23,18 @@
   <section style="margin-bottom: 30px;">
     <h3 style="background: #000; color: #fff; padding: 8px 12px; font-size: 1rem; display: inline-block;">2. REMOVING THE PROPRIETARY BARRIER</h3>
     <div style="margin-top: 15px; border-left: 2px solid #eee; padding-left: 20px;">
-      <p>Commercial outdoor sound relies on proprietary DSP to mask inferior hardware[cite: 1]. Releasing this blueprint removes that barrier[cite: 1].</p>
+      <p>Commercial outdoor sound relies on proprietary DSP to mask inferior hardware. Releasing this blueprint removes that barrier.</p>
       <ul style="list-style: none; padding: 0;">
-        <li style="margin-bottom: 12px;"><strong>Democratized Engineering:</strong> Anyone with a woodshop and a soldering iron can now achieve professional-grade "throw"[cite: 1].</li>
-        <li style="margin-bottom: 12px;"><strong>Physical Authority:</strong> By prioritizing Transient Reclamation over digital limiting, this node moves more air—further and deeper—than mass-market plastic brands[cite: 1].</li>
-        <li><strong>Open Standards:</strong> Released under CERN-OHL-S to ensure the recipe for high-depth sound remains public and unencumbered[cite: 1].</li>
+        <li style="margin-bottom: 12px;"><strong>Democratized Engineering:</strong> Anyone with a woodshop and a soldering iron can now achieve professional-grade "throw".</li>
+        <li style="margin-bottom: 12px;"><strong>Physical Authority:</strong> By prioritizing Transient Reclamation over digital limiting, this node moves more air—further and deeper—than mass-market plastic brands.</li>
+        <li><strong>Open Standards:</strong> Released under CERN-OHL-S to ensure the recipe for high-depth sound remains public and unencumbered.</li>
       </ul>
     </div>
   </section>
 
   <!-- Section 3: Value Summary -->
   <div style="background: #f0fdf4; border: 1px solid #bbf7d0; padding: 15px; font-size: 0.95rem; color: #166534;">
-    <strong>Strategic Win:</strong> This manifest proves that "Vitrified Depth" is a mechanical outcome of superior parts and physics, not a software subscription or a proprietary codec[cite: 1].
+    <strong>Strategic Win:</strong> This manifest proves that "Vitrified Depth" is a mechanical outcome of superior parts and physics, not a software subscription or a proprietary codec.
   </div>
 
   <div style="margin-top: 30px; text-align: center; color: #aaa; font-size: 0.75rem;">
