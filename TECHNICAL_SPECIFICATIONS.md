@@ -1,70 +1,110 @@
-<div style="font-family: sans-serif; max-width: 850px; line-height: 1.6; color: #1a1a1a; border: 1px solid #e1e4e8; padding: 30px; background-color: #ffffff;">
+<p><strong>Sovereign Throw Node — Acoustic Engine Specification (Engineering Layer)</strong></p>
 
-  <!-- Header Section -->
-  <div style="border-bottom: 2px solid #333; padding-bottom: 10px; margin-bottom: 25px;">
-    <h1 style="margin: 0; font-size: 1.75rem; letter-spacing: -0.01em; text-transform: uppercase;">Technical Specifications: The Acoustic Engine</h1>
-  </div>
+<hr>
 
-  <!-- Section 1: The Reclamation Pre-Amp -->
-  <section style="margin-bottom: 35px;">
-    <h2 style="font-size: 1.25rem; color: #0366d6; margin-bottom: 15px;">1. The Reclamation Pre-Amp (Internal Sovereign Kernel)</h2>
-    <p style="margin-bottom: 15px;">
-      Before reaching the power stage, the signal undergoes analog vitrification to restore physical mass lost in digital domains.
-    </p>
-    <div style="background: #f6f8fa; padding: 20px; border-radius: 6px;">
-      <ul style="margin: 0; padding-left: 20px;">
-        <li style="margin-bottom: 10px;">
-          <strong>The 16.2kHz Mass Filter:</strong> A 2nd-order Sallen-Key low-pass filter designed to eliminate digital "brittleness" and simulate the natural high-frequency roll-off of a high-mass horn system.
-        </li>
-        <li>
-          <strong>The 48Hz Bloom:</strong> A Gyrator-based resonant peak (Q=1.85) at 48Hz. This provides a deep, haptic anchor that maintains its physical authority even at extreme SPL, bypassing the need for DSP-based bass boosting.
-        </li>
-      </ul>
-    </div>
-  </section>
+<p><strong>1. Input Conditioning Stage</strong></p>
 
-  <!-- Section 2: Transducer Configuration -->
-  <section style="margin-bottom: 35px;">
-    <h2 style="font-size: 1.25rem; color: #0366d6; margin-bottom: 15px;">2. Transducer Configuration (Throw vs. Spread)</h2>
-    <p style="margin-bottom: 15px;">
-      Superior "throw" is achieved by concentrating acoustic energy rather than wasting it on wide-dispersion patterns that fail at distance.
-    </p>
-    <table style="width: 100%; border-collapse: collapse; margin-bottom: 15px;">
-      <tr style="background: #f1f3f5;">
-        <td style="padding: 12px; border: 1px solid #dee2e6; font-weight: bold; width: 30%;">Component</td>
-        <td style="padding: 12px; border: 1px solid #dee2e6;">Phase-Aligned Coaxial or Compression Driver/Horn Combo</td>
-      </tr>
-      <tr>
-        <td style="padding: 12px; border: 1px solid #dee2e6; font-weight: bold;">Logic</td>
-        <td style="padding: 12px; border: 1px solid #dee2e6;">Utilizes a 60° x 40° constant-directivity horn to project the Vitrified signal with maximum forward energy.</td>
-      </tr>
-    </table>
-  </section>
+<p><strong>1.1 High-Frequency Attenuation Filter</strong></p>
 
-  <!-- Section 3: Power Architecture -->
-  <section>
-    <h2 style="font-size: 1.25rem; color: #0366d6; margin-bottom: 15px;">3. Power Architecture & Transient Integrity</h2>
-    <p style="margin-bottom: 15px;">
-      Power is the substrate of depth. The architecture ensures the "k_transient" is never compressed by supply-side limitations.
-    </p>
-    <div style="border: 1px solid #eee; padding: 20px; border-radius: 6px;">
-      <ul style="margin: 0; padding-left: 20px;">
-        <li style="margin-bottom: 10px;">
-          <strong>High-Voltage Rails:</strong> Internal DC-DC Step-up converter providing a rigid 36V supply.
-        </li>
-        <li style="margin-bottom: 10px;">
-          <strong>Amplification:</strong> Class-D TPA3255 (High-Power) configured for PurePath™ Ultra-HD, allowing for uncompressed transient peaks.
-        </li>
-        <li>
-          <strong>Energy Storage:</strong> 10S2P Lithium-Ion pack with a 30A continuous discharge BMS to handle the instantaneous current demands of the 48Hz bloom.
-        </li>
-      </ul>
-    </div>
-  </section>
+<p>A 2nd-order Sallen-Key low-pass filter is used at the pre-amplification stage.</p>
 
-  <!-- Footer Branding -->
-  <div style="margin-top: 40px; text-align: right; color: #aaa; font-size: 0.8rem; letter-spacing: 0.1em; text-transform: uppercase;">
-    Sovereign Throw Node // Technical Manifest
-  </div>
+<ul>
+<li>Purpose: reduce high-frequency content above system tuning threshold</li>
+<li>Function: smooth high-frequency response prior to amplification</li>
+<li>Implementation: standard Sallen-Key topology</li>
+</ul>
 
-</div>
+<p>Note: This is a conventional analog filter stage and should be evaluated using standard frequency response measurements.</p>
+
+<hr>
+
+<p><strong>1.2 Low-Frequency Resonant Shaping</strong></p>
+
+<p>A gyrator-based resonant circuit is used to introduce controlled low-frequency emphasis.</p>
+
+<ul>
+<li>Center frequency: 48 Hz</li>
+<li>Q factor: 1.85 (moderate resonance width)</li>
+<li>Purpose: low-frequency emphasis for near-field and open-air projection consistency</li>
+</ul>
+
+<p>Note: This is a standard resonant EQ circuit implemented in analog domain.</p>
+
+<hr>
+
+<p><strong>2. Transducer and Acoustic Loading</strong></p>
+
+<p><strong>2.1 Driver Configuration</strong></p>
+
+<ul>
+<li>Coaxial or compression driver system</li>
+<li>Horn-loaded output stage</li>
+<li>Constant directivity horn: 60° × 40°</li>
+</ul>
+
+<p><strong>2.2 Acoustic Objective</strong></p>
+
+<ul>
+<li>Maintain forward energy concentration over distance</li>
+<li>Reduce off-axis high-frequency loss</li>
+<li>Improve intelligibility in open-air environments</li>
+</ul>
+
+<hr>
+
+<p><strong>3. Power Architecture</strong></p>
+
+<p><strong>3.1 Supply System</strong></p>
+
+<ul>
+<li>36V DC internal rail architecture via step-up conversion</li>
+<li>Battery configuration: 10S2P lithium-ion pack</li>
+<li>Continuous discharge capability: ≥30A (BMS controlled)</li>
+</ul>
+
+<p><strong>3.2 Amplification Stage</strong></p>
+
+<ul>
+<li>Class-D amplifier based on TPA3255 module</li>
+<li>High-efficiency switching topology</li>
+<li>Designed for high headroom operation under dynamic load</li>
+</ul>
+
+<p><strong>3.3 System Headroom Objective</strong></p>
+
+<ul>
+<li>Prevent early clipping under transient peaks</li>
+<li>Maintain linear amplification behavior within operating envelope</li>
+</ul>
+
+<hr>
+
+<p><strong>4. System-Level Design Intent (Non-Engineering Layer)</strong></p>
+
+<ul>
+<li>High-frequency filtering is intended to reduce perceived harshness in high-output environments</li>
+<li>Low-frequency resonance shaping is intended to improve perceived impact at distance</li>
+<li>High-voltage rail design is intended to maintain transient stability under load</li>
+</ul>
+
+<hr>
+
+<p><strong>5. Safety Considerations</strong></p>
+
+<p>This system is capable of producing sound pressure levels that may cause hearing damage.</p>
+
+<ul>
+<li>Hearing protection is recommended during calibration and testing</li>
+<li>Compliance with local SPL regulations is required</li>
+</ul>
+
+<hr>
+
+<p><strong>6. Measurement Validation Targets</strong></p>
+
+<ul>
+<li>Frequency response linearity (± tolerances defined per deployment)</li>
+<li>Harmonic distortion under high load</li>
+<li>Compression onset threshold vs input power</li>
+<li>Directivity consistency across horn dispersion pattern</li>
+</ul>
