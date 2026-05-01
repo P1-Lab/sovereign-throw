@@ -1,43 +1,6 @@
-<div style="font-family: sans-serif; max-width: 850px; line-height: 1.6; color: #1a1a1a; border: 1px solid #111; padding: 30px; background-color: #ffffff;">
+<div> <div style="border-bottom:2px solid #000; padding-bottom:10px; margin-bottom:20px;"> <h2 style="margin:0; font-size:1.4rem; text-transform:uppercase; letter-spacing:0.05em;"> Manufacturing Logic &amp; Economics </h2> <p style="margin:5px 0 0 0; font-size:0.85rem; font-weight:bold; color:#059669;"> PROTOCOL: Open Hardware Cost Transparency </p> </div> <section style="margin-bottom:20px;"> <h3 style="background:#000;color:#fff;padding:6px 10px;display:inline-block;font-size:0.95rem;"> 1. Cost Structure (Bill of Materials) </h3> <p> The system is designed around a constrained bill of materials prioritizing enclosure rigidity, amplifier headroom, and power delivery stability. </p> <ul> <li><strong>Estimated Build Cost:</strong> ~$250–$350 USD depending on driver and battery configuration</li> <li><strong>Primary Cost Drivers:</strong> enclosure material, amplification stage, and battery system</li> <li><strong>Design Constraint:</strong> budget allocation prioritizes mechanical and electrical headroom over cosmetic finishing</li> </ul> </section> <section style="margin-bottom:20px;"> <h3 style="background:#000;color:#fff;padding:6px 10px;display:inline-block;font-size:0.95rem;"> 2. Performance Positioning (Relative Comparison) </h3> <p> The design is positioned in the high-output portable loudspeaker category. Performance should be evaluated using measurable metrics: </p> <ul> <li>Maximum SPL before distortion onset</li> <li>Frequency response consistency under load</li> <li>Compression behavior at high input levels</li> <li>Directivity and throw consistency</li> </ul> <p> Comparative references include commercial portable PA systems in the $900+ range, though equivalence requires measurement validation. </p> </section> <section style="margin-bottom:20px;"> <h3 style="background:#000;color:#fff;padding:6px 10px;display:inline-block;font-size:0.95rem;"> 3. Open Hardware Strategy </h3> <ul> <li>Released under CERN-OHL-S open hardware license</li> <li>Design intent is reproducibility and independent validation</li> <li>Manufacturing is feasible with standard woodworking and electronics tooling</li> </ul> </section> <div style="padding:15px; border:1px solid #bbf7d0; background:#f0fdf4;"> <strong>Design Intent (Non-Economic Layer):</strong><br><br>
 
-  <!-- Header -->
-  <div style="border-bottom: 2px solid #000; padding-bottom: 10px; margin-bottom: 25px;">
-    <h1 style="margin: 0; font-size: 1.5rem; letter-spacing: 0.05em; text-transform: uppercase;">Manufacturing Logic & Economics</h1>
-    <p style="margin: 5px 0 0 0; color: #059669; font-weight: bold; font-size: 0.85rem;">PROTOCOL: Commodity Disruption / Radical Transparency</p>
-  </div>
+This system explores the relationship between enclosure rigidity, amplifier headroom, and perceived dynamic clarity in high-output portable loudspeaker systems.
+Claims of superiority require independent measurement validation and should not be interpreted as universal.
 
-  <!-- Section 1: The "Free to Everyone" Economics -->
-  <section style="margin-bottom: 30px;">
-    <h3 style="background: #000; color: #fff; padding: 8px 12px; font-size: 1rem; display: inline-block;">1. THE COST ANALYSIS</h3>
-    <div style="margin-top: 15px; border-left: 2px solid #eee; padding-left: 20px;">
-      <p>By bypassing the marketing markups and retail margins of "lifestyle" audio brands, we restore the value of the raw materials.</p>
-      <ul style="list-style: none; padding: 0;">
-        <li style="margin-bottom: 12px;"><strong>Total Build Cost:</strong> ~$250.00 – $350.00 USD, depending on driver selection and battery chemistry.</li>
-        <li style="margin-bottom: 12px;"><strong>Comparative Performance:</strong> This design physically competes with commercial units priced at $900.00+.</li>
-        <li style="margin-bottom: 12px;"><strong>Capital Efficiency:</strong> Every dollar spent is allocated to 36V headroom, 15mm Birch mass, and high-current BMS capability.</li>
-      </ul>
-    </div>
-  </section>
-
-  <!-- Section 2: Strategic Disruption -->
-  <section style="margin-bottom: 30px;">
-    <h3 style="background: #000; color: #fff; padding: 8px 12px; font-size: 1rem; display: inline-block;">2. REMOVING THE PROPRIETARY BARRIER</h3>
-    <div style="margin-top: 15px; border-left: 2px solid #eee; padding-left: 20px;">
-      <p>Commercial outdoor sound relies on proprietary DSP to mask inferior hardware. Releasing this blueprint removes that barrier.</p>
-      <ul style="list-style: none; padding: 0;">
-        <li style="margin-bottom: 12px;"><strong>Democratized Engineering:</strong> Anyone with a woodshop and a soldering iron can now achieve professional-grade "throw".</li>
-        <li style="margin-bottom: 12px;"><strong>Physical Authority:</strong> By prioritizing Transient Reclamation over digital limiting, this node moves more air—further and deeper—than mass-market plastic brands.</li>
-        <li><strong>Open Standards:</strong> Released under CERN-OHL-S to ensure the recipe for high-depth sound remains public and unencumbered.</li>
-      </ul>
-    </div>
-  </section>
-
-  <!-- Section 3: Value Summary -->
-  <div style="background: #f0fdf4; border: 1px solid #bbf7d0; padding: 15px; font-size: 0.95rem; color: #166534;">
-    <strong>Strategic Win:</strong> This manifest proves that "Vitrified Depth" is a mechanical outcome of superior parts and physics, not a software subscription or a proprietary codec.
-  </div>
-
-  <div style="margin-top: 30px; text-align: center; color: #aaa; font-size: 0.75rem;">
-    // SOVEREIGN THROW NODE // FILE: MANUFACTURING_LOGIC.md //
-  </div>
-</div>
+</div> <div style="margin-top:25px; text-align:center; font-size:0.75rem; color:#777;"> SOVEREIGN THROW NODE // FILE: MANUFACTURING_LOGIC.md </div> </div>
