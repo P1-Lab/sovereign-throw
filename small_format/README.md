@@ -1,3 +1,9 @@
+## Document Type
+
+This document defines the Rectifier Mini-Node as a near-field monitoring system in engineering terms suitable for external review, measurement validation, and manufacturing translation.
+
+System-specific terminology (e.g., "Rectifier") is used as internal naming and does not replace underlying acoustic engineering definitions.
+<HR>
 <p><strong>Rectifier Mini-Node</strong><br>
 Forensic Desktop Monitoring System<br>
 Protocol: Near-Field Reproduction / Deterministic Acoustic Path</p>
@@ -167,5 +173,17 @@ Protocol: Near-Field Reproduction / Deterministic Acoustic Path</p>
 <hr>
 
 <p><strong>11. Open Verification</strong></p>
+<HR>
+<strong>12. Measurement and Validation Framework</strong>
+
+All system performance claims are intended to be evaluated using:
+
+- Frequency response (anechoic or quasi-anechoic)
+- Impulse response analysis
+- Cumulative spectral decay (waterfall)
+- Enclosure vibration measurement (accelerometer or laser vibrometry)
+- Harmonic distortion testing at standardized SPL levels
+
+No claims assume subjective evaluation as primary validation method.
 
 <p>All acoustic claims are intended to be validated via frequency response measurement, impulse response testing, and enclosure vibration analysis. Independent measurement is encouraged.</p>
