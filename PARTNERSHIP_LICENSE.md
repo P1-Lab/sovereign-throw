@@ -1,37 +1,59 @@
-<div style="font-family: sans-serif; max-width: 850px; line-height: 1.6; color: #1a1a1a; border: 1px solid #00529b; padding: 30px; background-color: #ffffff;">
+<div>
 
-  <!-- Header -->
-  <div style="border-bottom: 2px solid #00529b; padding-bottom: 10px; margin-bottom: 25px;">
-    <h1 style="margin: 0; font-size: 1.5rem; letter-spacing: 0.05em; text-transform: uppercase; color: #00529b;">Commercial Licensing & Partnerships</h1>
-    <p style="margin: 5px 0 0 0; color: #666; font-weight: bold; font-size: 0.85rem;">INTEGRATION: The Sovereign Kernel for Commercial Audio</p>
-  </div>
+<div style="border-bottom:2px solid #00529b; padding-bottom:10px; margin-bottom:20px;">
+<h2 style="margin:0; font-size:1.4rem; text-transform:uppercase; letter-spacing:0.05em; color:#00529b;">
+Commercial Licensing &amp; OEM Integration
+</h2>
+<p style="margin:5px 0 0 0; font-size:0.85rem; font-weight:bold; color:#666;">
+OPEN CORE HARDWARE + COMMERCIAL EXTENSION MODEL
+</p>
+</div>
 
-  <!-- Open vs. Commercial -->
-  <section style="margin-bottom: 30px;">
-    <h3 style="background: #00529b; color: #fff; padding: 8px 12px; font-size: 1rem; display: inline-block;">1. THE OPEN CORE PHILOSOPHY</h3>
-    <p style="margin-top: 10px;">The Sovereign Throw Node is released under the <strong>CERN-OHL-S</strong> (Open Hardware License). We believe in democratizing high-authority sound for the individual maker and hobbyist.</p>
-  </section>
+<section style="margin-bottom:20px;">
+<h3 style="background:#00529b;color:#fff;padding:6px 10px;display:inline-block;font-size:0.95rem;">
+1. Open Core Licensing
+</h3>
 
-  <!-- Licensing for Businesses -->
-  <section style="margin-bottom: 30px;">
-    <h3 style="background: #000; color: #fff; padding: 8px 12px; font-size: 1rem; display: inline-block;">2. B2B LICENSING: "LOGIC INSIDE"</h3>
-    <div style="margin-top: 15px; border-left: 2px solid #eee; padding-left: 20px;">
-      <p>We do not seek to compete with established PA manufacturers; we seek to empower them. Our commercial licensing program allows businesses to:</p>
-      <ul style="list-style: none; padding: 0;">
-        <li style="margin-bottom: 12px;"><strong>Embed the Kernel:</strong> Integrate the 16.2kHz Mass Filter and 48Hz Bloom into your existing product lines.</li>
-        <li style="margin-bottom: 12px;"><strong>Supply Chain Access:</strong> Gain access to our audited list of "Architecture of Necessity" verified components.</li>
-        <li style="margin-bottom: 12px;"><strong>Co-Branding:</strong> Use the "Powered by Sovereign Logic" mark to verify your product’s acoustic depth and zero-latency pedigree.</li>
-      </ul>
-    </div>
-  </section>
+<p>
+The hardware design is released under the CERN-OHL-S open hardware license for independent implementation, modification, and validation.
+</p>
+</section>
 
-  <!-- Contact/Call to Action -->
-  <div style="background: #f0f7ff; border: 1px solid #bae1ff; padding: 15px; font-size: 0.95rem; color: #00529b; text-align: center;">
-    <strong>Are you an OEM or Audio Manufacturer?</strong><br>
-    We are open to licensing the Sovereign Kernel as a "White Label" solution. Let’s bypass the DSP age together.
-  </div>
+<section style="margin-bottom:20px;">
+<h3 style="background:#000;color:#fff;padding:6px 10px;display:inline-block;font-size:0.95rem;">
+2. Commercial OEM Integration
+</h3>
 
-  <div style="margin-top: 30px; text-align: center; color: #aaa; font-size: 0.75rem;">
-    // SOVEREIGN THROW NODE // FILE: PARTNERSHIP_LICENSE.md //
-  </div>
+<p>
+Commercial partners may license defined subsystems for integration into existing product lines.
+</p>
+
+<ul>
+<li><strong>Analog signal processing stage:</strong> filter and gain-shaping circuits implemented in hardware</li>
+<li><strong>Low-frequency tuning stage:</strong> analog resonance shaping circuit (application-dependent)</li>
+<li><strong>Reference design access:</strong> verified BOM and PCB layouts for production scaling</li>
+</ul>
+</section>
+
+<section style="margin-bottom:20px;">
+<h3 style="background:#000;color:#fff;padding:6px 10px;display:inline-block;font-size:0.95rem;">
+3. Commercial Model
+</h3>
+
+<ul>
+<li>OEM licensing available for integration into commercial audio systems</li>
+<li>White-label implementation permitted under commercial agreement</li>
+<li>Branding layer (“Powered by Sovereign”) optional and contract-dependent</li>
+</ul>
+</section>
+
+<div style="padding:15px; border:1px solid #bae1ff; background:#f0f7ff;">
+<strong>Brand Layer (Optional Use):</strong><br><br>
+“Sovereign Logic” refers to a design language describing the system architecture. It is not a standalone software or DSP product.
+</div>
+
+<div style="margin-top:25px; text-align:center; font-size:0.75rem; color:#777;">
+SOVEREIGN THROW NODE // FILE: PARTNERSHIP_LICENSE.md
+</div>
+
 </div>
