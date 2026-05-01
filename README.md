@@ -1,88 +1,140 @@
-# sovereign-throw
-The Sovereign Throw Node is a portable, high-SPL audio blueprint prioritizing Transient Reclamation. It uses 36V rails and analog conditioning (16.2kHz Mass Filter/48Hz Bloom) to project a "wall of air" without the flattening of digital limiting. Open-source via CERN-OHL-S.
-<P>
-  <div style="font-family: sans-serif; max-width: 850px; line-height: 1.6; color: #1a1a1a;">
-  
-  <!-- Header -->
-  <div style="border-bottom: 2px solid #000; padding-bottom: 15px; margin-bottom: 25px;">
-    <h1 style="margin: 0; font-size: 2rem; letter-spacing: -0.02em;">Sovereign Throw Node</h1>
-    <p style="margin: 5px 0 0 0; color: #666; font-style: italic;">High-Depth Portable Audio Manifest | CERN-OHL-S</p>
-  </div>
+<p><strong>Sovereign Throw Node</strong><br>
+High-SPL Portable Audio System<br>
+Open Hardware Manifest (CERN-OHL-S)</p>
 
-  <p style="font-size: 1.1rem; font-weight: 500;">
-    A blueprint for a portable, high-SPL speaker system designed to outperform commercial "party speakers" by prioritizing <strong>Transient Reclamation</strong> and <strong>Vitrified Depth</strong>.
-  </p>
+<hr>
 
-  <!-- Philosophy Callout -->
-  <div style="background: #f8f9fa; border-left: 5px solid #333; padding: 20px; margin: 25px 0;">
-    <h3 style="margin-top: 0; text-transform: uppercase; font-size: 0.9rem; letter-spacing: 0.05em;">Core Philosophy</h3>
-    <ul style="margin-bottom: 0; padding-left: 20px;">
-      <li><strong>No Flattening:</strong> Total rejection of digital "Brickwall" limiting.</li>
-      <li><strong>Resonant Anchor:</strong> Permanent hardware integration of the 48Hz "Chills" Foundation.</li>
-      <li><strong>Massive Headroom:</strong> 36V internal rails for uncompressed transient peaks.</li>
-    </ul>
-  </div>
+<p><strong>1. System Overview</strong></p>
+<p>The Sovereign Throw Node is a portable high-SPL loudspeaker system designed for controlled long-throw audio projection in open environments.</p>
 
-  <!-- Technical Mechanics -->
-  <h3 style="border-bottom: 1px solid #eee; padding-bottom: 8px;">Technical Mechanics</h3>
-  <table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
-    <thead>
-      <tr style="background: #eee; text-align: left;">
-        <th style="padding: 10px; font-size: 0.85rem;">MODULE</th>
-        <th style="padding: 10px; font-size: 0.85rem;">SPECIFICATION</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr style="border-bottom: 1px solid #eee;">
-        <td style="padding: 12px 10px;"><strong>Pre-Amp</strong></td>
-        <td style="padding: 12px 10px;">Vitrification Kernel: 16.2kHz Mass Filter + 48Hz Bloom (Q=1.85).</td>
-      </tr>
-      <tr style="border-bottom: 1px solid #eee;">
-        <td style="padding: 12px 10px;"><strong>Power Stage</strong></td>
-        <td style="padding: 12px 10px;">TPA3255 Class-D configured for 36V PurePath™ Ultra-HD.</td>
-      </tr>
-      <tr style="border-bottom: 1px solid #eee;">
-        <td style="padding: 12px 10px;"><strong>Transducer</strong></td>
-        <td style="padding: 12px 10px;">Constant Directivity Horn (60°x40°) for superior throw projection.</td>
-      </tr>
-      <tr>
-        <td style="padding: 12px 10px;"><strong>Enclosure</strong></td>
-        <td style="padding: 12px 10px;">15mm Baltic Birch Plywood; airtight, cross-braced, tuned to 45Hz.</td>
-      </tr>
-    </tbody>
-  </table>
+<p>The design prioritizes transient headroom, reduced early compression, controlled directivity, and mechanical enclosure stability.</p>
 
-  <!-- Safety Warning -->
-  <div style="background: #fff5f5; border: 1px solid #feb2b2; padding: 15px; color: #c53030; border-radius: 4px; margin-top: 30px;">
-    <strong style="text-transform: uppercase;">Safety Warning:</strong> 
-    At 36V, this system produces extreme SPL. Use hearing protection during testing. Ensure a 30A continuous discharge BMS is used to manage the 48Hz transient "thump".
-  </div><!-- The Heat: Manifesto Section -->
-<section style="margin: 35px 0;">
-  <h2 style="border-bottom: 2px solid #d9411e; padding-bottom: 8px; color: #d9411e; text-transform: uppercase; font-size: 1.2rem;">The Case for Necessity</h2>
-  <p style="margin-top: 15px;">
-    Most modern portable PAs are built on a lie: that software DSP can compensate for cheap plastic enclosures and sagging 12V rails. They use "Brickwall" limiting to hide driver distress, resulting in a flattened, clinical sound that dies 5 meters away.
-  </p>
-  <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-top: 20px;">
-    <div style="border: 1px solid #eee; padding: 15px;">
-      <h4 style="margin: 0; color: #666;">COMMERCIAL STATUS QUO</h4>
-      <p style="font-size: 0.85rem;">Stochastic digital snapshots, plastic resonance, and compressed transients. Designed for convenience.</p>
-    </div>
-    <div style="border: 1px solid #d9411e; padding: 15px; background: #fffcfb;">
-      <h4 style="margin: 0; color: #d9411e;">SOVEREIGN STANDARD</h4>
-      <p style="font-size: 0.85rem;">Vitrified analog kernels, 15mm Baltic Birch mass, and 36V uncompressed peaks. Designed for Authority.</p>
-    </div>
-  </div>
-</section>
+<p>It is optimized for near-field to mid-field projection (1m–10m).</p>
 
-<!-- Added Cone Specification Note -->
-<div style="background: #000; color: #fff; padding: 15px; margin: 25px 0; text-align: center;">
-  <span style="letter-spacing: 0.1em; text-transform: uppercase; font-size: 0.8rem;">
-    MANDATORY INTERFACE: Long-Fiber Non-Pressed Paper Cone only. Synthetics are strictly prohibited.
-  </span>
-</div><P></P>
+<hr>
 
-  <p style="margin-top: 30px; font-size: 0.85rem; color: #666; text-align: center;">
-    <em>The "Sovereign Throw Node" is now public. The audio house is complete.</em>
-  </p>
-</div>
-</P>
+<p><strong>2. Electrical Architecture</strong></p>
+
+<p><strong>2.1 Power System</strong></p>
+<ul>
+<li>36V DC rail architecture</li>
+<li>high-current battery management system (≥30A continuous capability recommended)</li>
+</ul>
+
+<p><strong>Purpose:</strong> Increased voltage headroom reduces early onset of amplifier clipping under transient peaks.</p>
+
+<p><strong>2.2 Amplification Stage</strong></p>
+<ul>
+<li>Class-D amplifier platform based on TPA3255 module</li>
+</ul>
+
+<p><strong>Configuration goals:</strong></p>
+<ul>
+<li>low distortion at high output power</li>
+<li>high efficiency under battery load</li>
+<li>stable performance into low impedance loads</li>
+</ul>
+
+<hr>
+
+<p><strong>3. Acoustic System</strong></p>
+
+<p><strong>3.1 Transducer</strong></p>
+<ul>
+<li>constant directivity horn system (60° × 40° target dispersion)</li>
+</ul>
+
+<p><strong>Purpose:</strong></p>
+<ul>
+<li>maintain SPL consistency over distance</li>
+<li>reduce off-axis energy loss in open environments</li>
+</ul>
+
+<p><strong>3.2 Enclosure</strong></p>
+<ul>
+<li>15mm Baltic birch plywood</li>
+<li>cross-braced internal structure</li>
+<li>sealed or semi-sealed tuning depending on deployment mode</li>
+</ul>
+
+<p><strong>Tuning target:</strong> ~45 Hz system resonance (application-dependent)</p>
+
+<hr>
+
+<p><strong>4. Signal Path Philosophy</strong></p>
+
+<p>The system uses a minimal processing chain:</p>
+<ul>
+<li>no mandatory DSP-based dynamic limiting</li>
+<li>analog gain staging preferred at input stage</li>
+<li>system headroom preserved through electrical design, not digital compression</li>
+</ul>
+
+<hr>
+
+<p><strong>5. Performance Targets</strong></p>
+
+<p><strong>5.1 SPL Behavior</strong></p>
+<ul>
+<li>sustained high output without early limiting artifacts</li>
+<li>reduced perceived compression at high drive levels</li>
+</ul>
+
+<p><strong>5.2 Frequency Behavior</strong></p>
+<ul>
+<li>controlled low-frequency extension (dependent on enclosure mode)</li>
+<li>stable midrange projection via horn loading</li>
+<li>reduced off-axis high-frequency collapse</li>
+</ul>
+
+<p><strong>5.3 Distortion Targets</strong></p>
+<ul>
+<li>low-order harmonic distortion maintained under high load conditions</li>
+<li>compression behavior delayed via voltage headroom</li>
+</ul>
+
+<hr>
+
+<p><strong>6. Known Trade-offs</strong></p>
+<ul>
+<li>increased power system complexity</li>
+<li>higher weight due to enclosure and battery system</li>
+<li>reduced portability compared to 12–24V consumer systems</li>
+</ul>
+
+<hr>
+
+<p><strong>7. Design Hypothesis</strong></p>
+
+<p>The system evaluates the proposition that increasing electrical headroom and enclosure rigidity reduces early dynamic compression and improves perceived transient clarity in portable high-SPL systems.</p>
+
+<hr>
+
+<p><strong>8. Safety Notice</strong></p>
+
+<p>This system is capable of producing SPL levels that can cause hearing damage.</p>
+
+<p>Recommended precautions:</p>
+<ul>
+<li>hearing protection during calibration</li>
+<li>controlled testing environment</li>
+<li>adherence to local SPL regulations</li>
+</ul>
+
+<hr>
+
+<p><strong>9. Open Hardware Status</strong></p>
+
+<p>This design is released under CERN-OHL-S for independent verification and modification.</p>
+
+<hr>
+
+<p><strong>10. Interpretive Naming Layer (Non-Technical Reference)</strong></p>
+
+<ul>
+<li>“Vitrification Kernel” → internal design codename (not a physical component)</li>
+<li>“48 Hz resonance shaping” → system tuning region (45–55 Hz depending on enclosure volume)</li>
+<li>“Transient reinforcement” → amplifier headroom behavior under peak load</li>
+</ul>
+
+<p>These terms are descriptive, not literal physical mechanisms.</p>
