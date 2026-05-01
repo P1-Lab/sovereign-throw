@@ -58,7 +58,7 @@ Protocol: Near-Field Reproduction / Deterministic Acoustic Path</p>
 <ul>
 <li>line-level analog input preferred</li>
 <li>optional DAC interface depending on deployment</li>
-<li>no mandatory onboard DSP processing</li>
+<li>DSP is not required for baseline operation, but may be used optionally for system integration or room adaptation depending on deployment context.</li>
 </ul>
 
 <p><strong>Latency target:</strong> &lt; 2 ms system latency (excluding host DAW buffer)</p>
